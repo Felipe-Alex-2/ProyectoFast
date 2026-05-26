@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.login-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.login-card h2 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.login-card p {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.password-box {
+  display: flex;
+  gap: 8px;
+}
+
+.password-box input {
+  flex: 1;
+}
+
+.password-box button {
+  border: none;
+  background: #e2e8f0;
+  padding: 0 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1e293b;
+}
+
+.password-box button:hover {
+  background: #cbd5e1;
+}
+
+small {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: 5px;
+  display: block;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.btn-login:hover {
+  background: #1d4ed8;
+}
+
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.extra-links a {
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
+
+#message {
+  margin-top: 18px;
+  text-align: center;
+  font-weight: bold;
+}
